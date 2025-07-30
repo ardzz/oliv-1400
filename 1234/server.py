@@ -12,18 +12,16 @@ ALPH = string.ascii_letters + string.digits
 available_commands = ["AUTH", "TOKEN", "REG"]
 
 def validate_string(s):
-    return all([c in ALPH for c in s]) and 7 < len(s) < 65
+    return all([c in ALPH for c in s]) and len(s) > 7 and len(s) < 65
 
-
-def handle_ack():
-    print("HELLO")
-    assert input().strip() == "HELLO"
-    print("OK")
-
-
-class Server:
+class Server():
     def __init__(self):
         pass
+
+    def handle_ack(self):
+        print("HELLO")
+        assert input().strip() == "HELLO"
+        print("OK")
 
     def get_user_choice(self):
         req = input().strip()
@@ -85,7 +83,7 @@ class Server:
 try:
     s = Server()
 
-    handle_ack()
+    s.handle_ack()
     choice = s.get_user_choice()
 
     if choice == "AUTH":
