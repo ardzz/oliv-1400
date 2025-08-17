@@ -1,0 +1,86 @@
+HTTP/1.1 200 OK
+Date: Wed, 30 Jul 2025 08:33:56 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.33
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 9579
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>ExamLMS - Exam view</title>
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar  navbar-expand-lg  bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand btn btn-warning" href="/">
+                <i class="fa-solid fa-building-columns"></i> ExamLMS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type='button' class='btn btn-sm btn-success mx-2'><i class='fa-solid fa-user'></i> J1NpJF14ELp</button><a class='btn btn-sm btn-danger mx-2' href='logout.php'><i class='fa-solid fa-right-from-bracket'></i> Logout</a>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center">
+                <h1><i class="fa-solid fa-building-columns"></i> Olivia</h1>
+                <h3>ExamLMS</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-12 col-md-8  py-3 border rounded bg-primary text-white">
+
+                <h3><i class="fa-solid fa-chalkboard-user"></i> Exam Advanced reverse engineering 1 - admin panel</h3>
+
+                <div class="bg-light rounded border p-3 mt-3 text-dark">
+
+
+                    <div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>Which cybersecurity principle is most important when attempting to trace the source of malicious activity?</div><ul class='list-group mt-3'><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> Availability</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>Integrity</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>Nonrepudiation</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>Confidentiality</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>If security is a real concern on your network, what length do most experts recommend as the minimum for password length?</div><ul class='list-group mt-3'><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> 10</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>9</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>8</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>6</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>Which of the following is an asymmetric algorithm based on calculating logarithms?</div><ul class='list-group mt-3'>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>ECC</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>Diffie-Hellman</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>El Gamal</li><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> RSA</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>What's the best post-quantum candidate?</div><ul class='list-group mt-3'><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> NTRU</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>McEliece</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>SIKE</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>Rainbow</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>Which of the following is a password hashing algorithm?</div><ul class='list-group mt-3'>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>AES</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>MD4</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>PGP</li><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> 3DES</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>What's the best pwning tool?</div><ul class='list-group mt-3'>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>gef</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>AFL++</li><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> pwntools</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>calc.exe</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>Is pwn funny?</div><ul class='list-group mt-3'>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>no</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>no</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>no</li><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> no</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>Which one of the following describes a computer hacker?</div><ul class='list-group mt-3'>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>A skilled programmer who uses authorised access to exploit information available on a computer</li><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> A skilled programmer who secretly invades computers without authorisation</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>A skilled programmer who writes programs to train new employees</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>A skilled programmer who helps in the installation of new software for an organisation</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>What information do you need to set up a wireless access point?</div><ul class='list-group mt-3'><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> SSID</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>MAC address</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>IP address</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>ARP</li></ul><hr /><div><i class='fa-solid fa-circle-question'></i> Question:</div><div class='alert alert-secondary mt-3'>What's your favourite CVE?</div><ul class='list-group mt-3'>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>CVE-2021-44228</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>CVE-2022-0778</li>    <li class='list-group-item text-white bg-danger'><i class='fa-solid fa-circle-xmark'></i>CVE-2021-26855</li><li class='list-group-item text-white bg-success'><i class='fa-solid fa-circle-check'></i> CVE-2014-0160</li></ul><hr />
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-primary">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-white ">
+                    @ 2025 Olivia <i class="fa-solid fa-trademark"></i> platform | All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

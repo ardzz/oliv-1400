@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Wed, 30 Jul 2025 08:30:42 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.33
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 42
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+{"msg":"EAGAWG22P9U019OZ8TL731VUTL21Q04="}

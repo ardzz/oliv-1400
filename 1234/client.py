@@ -3,7 +3,7 @@ import authlib
 import sys
 import string
 
-context.log_level = "error"
+context.log_level = "debug"
 
 PORT = 1234
 

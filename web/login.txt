@@ -1,0 +1,17 @@
+POST /login.php HTTP/1.1
+Host: 10.60.5.1:16000
+Content-Length: 448
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+Origin: http://10.60.2.1:16000
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://10.60.2.1:16000/login.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,id;q=0.8,nb;q=0.7
+Cookie: PHPSESSID=77060aa24a0c20bdffda94389114a346; adminer_version=5.3.0
+Connection: keep-alive
+
+token=85e186e07c8796b1801ba0ebe816738cdc221aa500bb24c94354231dbff5736640d7d6a2468d8db7ee05b84ece40224d614a80d6f75ea74fd7fd093dc88010983ab6336a.1cc76b67605f8809ae4b0db21a527223bdec7574a229d2430583636d8eee0b4a638f203c20ed360de3d4443ad43d81ad0a254de63f8f84f9f3b811fe6e3055835956f9badcc191ac5a39c605346ddc02954fbcd8ea302e273891ea45297550ccaf4ff133801c59871c1bafad8ff07759c1178c6cfed9c1a71584fcf63d17d8c0f356dff2310c851a368c38a0896b7330e0&2fa=EGPAmOtqq0
